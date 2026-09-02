@@ -1,3 +1,5 @@
+## Name: Sri hari R
+## Reg N0: 212223040202
 
 ## Ex 01 -Simple Web Server using Spring Boot
 
@@ -41,7 +43,7 @@ Stop the Spring Boot server once testing is complete.
 
 
 ## Program 
-
+```
 simple-web-server/
 ├── src/
 │   └── main/
@@ -52,7 +54,7 @@ simple-web-server/
 │       └── resources/
 │           └── application.properties
 ├── pom.xml
-
+```
  ### Pom.xml
 
 <project xmlns="http://maven.apache.org/POM/4.0.0"
@@ -93,7 +95,7 @@ simple-web-server/
 </project>
 
 ### DemoApplication.java
-
+```
 package com.example.demo;
 
 import org.springframework.boot.SpringApplication;
@@ -105,9 +107,10 @@ public class DemoApplication {
         SpringApplication.run(DemoApplication.class, args);
     }
 }
-
+```
 
 ### HelloController.java
+```
 package com.example.demo;
 
 import org.springframework.web.bind.annotation.GetMapping;
@@ -121,15 +124,18 @@ public class HelloController {
         return "Hello, Spring Boot!";
     }
 }
-
+```
 
 ### application.properties:
-
+```
  server.port=8081
 
-
+```
 
 
 Output:
 
+<img width="673" height="297" alt="image" src="https://github.com/user-attachments/assets/c31ee051-8ca4-4df0-a407-46c9cc27c177" />
 
+### Result:
+Thus, program for Simple Web Server using Spring Boot is executed.
